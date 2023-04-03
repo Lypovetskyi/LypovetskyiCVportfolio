@@ -1,0 +1,48 @@
+@media (max-width: 620px) {
+
+    .header {
+        min-height: unset;
+    }
+    .header-title {
+        font-size: 30px;
+    }
+    .header-title strong {
+        font-size: 40px;
+    }
+    .section {
+        padding: 40px 0;
+    }
+    .title-1 {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .title-2 {
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+ 
+    .projects-title {
+        font-size: 22px;
+    }
+
+    .footer {
+        padding: 40px 0 30px;
+    }
+    .footer-wrapper {
+        row-gap: 20px;
+    }
+    .social {
+        column-gap: 20px;
+    }
+    .social-item {
+        width: 28px;
+    }
+
+    .content-list {
+        row-gap: 20px;
+    }
+    .content-list-item {
+        font-size: 16px;
+    }
+    
+}
