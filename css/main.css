@@ -252,11 +252,10 @@ transition: opacity 0.2s ease-in;
 /* Main Projects */
 
 .projects {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
     justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 30px;
 
 }
 .project {
@@ -270,7 +269,7 @@ transition: opacity 0.2s ease-in;
     
 }
 .project-img {
-    border-radius: 10px;
+   width: 100%;
 }
 .project-title {
     padding: 15px 20px 25px;
